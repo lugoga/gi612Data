@@ -1,0 +1,20 @@
+Package: gi612
+Type: package
+Date: lubridate::today()
+Title: Data Package For GI 612 Course
+Version: 0.1.0
+Authors@R: 
+    person(given = "Masumbuko",
+           family = "Semba",
+           role = c("aut", "cre"),
+           email = "lugosemba@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Maintainer: Masumbuko Semba <lugosemba@gmail.com>
+Description: A package contain dataset required for GI 612--Introduction to GIS for coastal and Marine Resource Management offered at the Insitute of Marine Sciences of the University of Dar es Salaam.
+Depends:
+    R (>= 3.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
