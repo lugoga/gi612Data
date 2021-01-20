@@ -5,6 +5,11 @@ This package contains the data to help you complete exercise for the book *Pract
 
 This package is a complement to, not a substitute of, *Practical Spatial Data Coastal and Marine Environment in R*. It only provides data for the exercise and solutions for it. Additional, the solutions use several packages that are not used in R4DS. You can install development version of **gi612** from github:
 
+``` r
+# install.packages("devtools")
+devtools::install_github("lugoga/gi612Data")
+```
+
 
 ## Citation
 
