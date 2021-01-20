@@ -1,0 +1,46 @@
+---
+title: "Data for GI 612 GIS for Coastal and Marine Resources in R"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Introduction
+This package contains the data to help you complete exercise for the book Practical Spatial Data Coastal and Marine Environment in R, by Masumbuko Semba (Semba 2021). Practical Spatial Data Coastal and Marine Environment in R itself is available online at https://lugoga.github.io/geomarine/.
+
+This package is a complement to, not a substitute of, Practical Spatial Data Coastal and Marine Environment in R. It only provides data for the exercise and solutions for it. Additional, the solutions use several packages that are not used in R4DS. You can install development version of gi612 from github:
+
+```{r, eval=FALSE}
+# install.packages("devtools")
+devtools::install_github("lugoga/gi612Data")
+```
+
+Once you have installed, you can load the package into your session with either `require()` or `library()` functions. 
+
+```{r setup}
+library(gi612)
+```
+
+The package has 12 spatial data and 17 tabular dataset enough to make your familiar with spatial data analysis in R.
+
+For instance, if i want to call the africa spatial data, I simply write
+```{r}
+gi612::simple_feature
+```
+
+Similarly, if you know the name of the file in the package, you simply call them after loading the package in the session as the code below highlight
+```{r}
+require(gi612)
+points
+```
+
+
