@@ -1,5 +1,5 @@
 Package: gi612
-Type: package
+Type: Package
 Date: lubridate::today()
 Title: Data Package For GI 612 Course
 Version: 0.1.0

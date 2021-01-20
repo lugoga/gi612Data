@@ -18,7 +18,7 @@
 \alias{tafiri_chl}
 \alias{tafiri_pp}
 \alias{tafiri_sst}
-\title{Vertical Profile of CTD}
+\title{Tabular data}
 \format{
 An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 2796 rows and 12 columns.
 
@@ -82,14 +82,6 @@ tafiri_pp
 tafiri_sst
 }
 \description{
-A data frame containing vertical profile of CTD
-}
-\details{
-Tabular data
-
 These datasets contain tabular data required to accomplish GI 612
-}
-\author{
-Masumbuko Semba
 }
 \keyword{datasets}

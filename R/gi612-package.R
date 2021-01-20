@@ -12,9 +12,6 @@ NULL
 #' These datasets contain tabular data required to accomplish GI 612
 #'
 #' @name tabular
-#' @author Masumbuko Semba
-#' @description A data frame containing vertical profile of CTD
-#' @title Vertical Profile of CTD
 #' @keywords datasets
 "algoa_ctd"
 
