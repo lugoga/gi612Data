@@ -1,5 +1,5 @@
 
-# gi621 <img src="man/graphics/wior.svg" align="right"/>
+# gi621 <img src="man/graphics/geoR.svg" align="right"/>
 
 This package contains the data to help you complete exercise for the book *Practical Spatial Data Coastal and Marine Environment in R*, by Masumbuko Semba (Semba 2021). *Practical Spatial Data Coastal and Marine Environment in R* itself is available online at https://lugoga.github.io/geomarine/.
 
